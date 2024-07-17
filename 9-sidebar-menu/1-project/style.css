@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+  background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('./indoor-plants-studio.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    overflow-x: hidden;
+}
+
+.logo{
+    font-size: 30px;
+    color: white;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 70px;
+    transition:  0.7s;
+}
+
+.menu-list li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    text-align: center;
+    padding: 165px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero h1{
+    text-transform: uppercase;
+    font-size: 49px;
+    font-weight: 800;
+    color: white;
+}
+.hero p{
+    padding: 25px 0px;
+    color: gray;
+}
+
+.btns{
+    display: flex;
+    column-gap: 20px;
+}
+
+button{
+    padding: 6px 45px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    background: transparent;
+    border: 1px solid teal;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    background-color: teal;
+}
+
+.close{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+nav .open{
+    display: none;
+    font-size: 23px;
+    color: white;
+}
+
+nav .close{
+    display: none;
+}
+
+.menu-list a:hover{
+    color: red;
+}
+
+
+@media screen and (max-width:960px) {
+    .logo{
+        font-size: 25px;
+    }
+
+    .menu-list{
+        position: absolute;
+        right: 490px;
+        transition:  0.7s;
+        top: 0px;
+        width: 260px;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .94);
+        z-index: 1;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: normal;
+        gap: 70px;
+        padding: 40px;
+    }
+
+    .menu-list a{
+        color: white;
+        font-size: 15px;
+    }
+
+    .menu-list li:first-child{
+        margin-top: 50px;
+    }
+
+    nav .open{
+        display: block;
+        cursor: pointer;
+    }
+
+    nav .close{
+        display: block;
+    }
+
+    .active{
+        right: 0px;
+        transition: 0.6s;
+    }
+    
+}

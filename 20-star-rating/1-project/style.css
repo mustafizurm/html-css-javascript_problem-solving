@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+    padding: 100px 0px 300px 0px;
+}
+h2{
+    font-size: 43px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.child{
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.child i{
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.active{
+    color: orange;
+}
