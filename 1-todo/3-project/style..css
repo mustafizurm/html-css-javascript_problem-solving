@@ -164,7 +164,7 @@ body {
     /* left: 50%; */
     /* transform: translateX(-50%); */
     border-radius: 0 0 50% 50%;
-    background-color: #39a6f0;
+    background-color: royalblue;
     z-index: -1;
     transition: all 0.3s;
 }
@@ -193,7 +193,7 @@ body {
 
 .welcome {
     display: flex;
-    justify-content: space-between;
+    column-gap: 40px;
     margin-top: 20px;
     color: #ffffff;
 }
