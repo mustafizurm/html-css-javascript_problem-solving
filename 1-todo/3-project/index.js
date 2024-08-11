@@ -315,11 +315,11 @@ let categories = [
         checkbox.type = "checkbox";
         checkbox.id = task.id;
         checkbox.checked = task.completed;
-        // checkbox.addEventListener("change", () => {
-        //   const index = tasks.findIndex((t) => t.id === task.id);
-        //   tasks[index].completed = !tasks[index].completed;
-        //   saveLocal();
-        // });
+        checkbox.addEventListener("change", () => {
+          const index = tasks.findIndex((t) => t.id === task.id);
+          tasks[index].completed = !tasks[index].completed;
+          saveLocal();
+        });
         div.innerHTML = `
         <div class="delete">
                   <svg
