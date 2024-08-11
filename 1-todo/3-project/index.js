@@ -1,35 +1,36 @@
+
 let categories = [
     {
       title: "Personal",
-      img: "boy.png",
+      img: "/img/boy.png"
     },
     {
       title: "Work",
-      img: "briefcase.png",
+      img: "/img/work.png",
     },
     {
       title: "Shopping",
-      img: "shopping.png",
+      img: "/img/shop.png",
     },
     {
       title: "Coding",
-      img: "web-design.png",
+      img: "/img/cooding.png",
     },
     {
       title: "Health",
-      img: "healthcare.png",
+      img: "/img/health.png",
     },
     {
       title: "Fitness",
-      img: "dumbbell.png",
+      img: "/img/fitness.png",
     },
     {
       title: "Education",
-      img: "education.png",
+      img: "/img/education.png",
     },
     {
       title: "Finance",
-      img: "saving.png",
+      img: "./img/finance.png",
     },
   ];
   
@@ -238,7 +239,7 @@ let categories = [
   
       div.innerHTML = `
                     <div class="left">
-                  <img src="images/${category.img}"
+                  <img src="${category.img}"
                    alt="${category.title}"
                     />
                   <div class="content">
