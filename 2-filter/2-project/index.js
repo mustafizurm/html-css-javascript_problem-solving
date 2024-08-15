@@ -1,29 +1,49 @@
-const btnContainer = document.querySelector(".category-container");
-const all_btns = btnContainer.querySelectorAll("div");
-const product_items = document.querySelectorAll(".product-item");
+// const buttons = document.querySelectorAll("button");
+// const products = document.querySelectorAll(".product")
+// const products_container = document.querySelector(".products-container");
 
-product_items.forEach((p)=>{
-    p.classList.add("active")
-})
+// buttons.forEach((btn)=>{
+//     btn.addEventListener("click", ()=>{
+//         const data_set = btn.innerText.toUpperCase();
+//         products.forEach((product)=>{
+//             product.classList.add("hide")
+//             if(data_set === "ALL"){
+//                 product.classList.remove("hide")
+//                 product.classList.add("active")
+//             } else{
+//                 if(product.id.toUpperCase() === data_set){
+//                     product.classList.remove("hide")
+//                     product.classList.add("active")
+//                   } else{
+//                     product.classList.remove("active")
+//                   }
+//             }
+//         })
+//     })
+// })
 
-all_btns.forEach((btn)=>{
-    btn.addEventListener("click", (e)=>{
-       const forMatch = e.target.getAttribute("attr");
-       
-       product_items.forEach((pItem)=>{
-       
-         if(forMatch == "all"){
-            pItem.classList.add("active")
-            console.log(pItem);
-         } else{
-            if(pItem.classList.contains(forMatch)){
-                pItem.classList.add("active")  
+const buttons = document.querySelectorAll("button");
+const products = document.querySelectorAll(".product")
+
+buttons.forEach((btn)=>{
+
+    btn.addEventListener("click", ()=>{
+        const data_set = btn.innerText.toUpperCase();
+
+        products.forEach((p)=>{
+            const id = p.id.toUpperCase();
+            p.classList.add("hide")
+            if(data_set === "ALL"){
+                p.classList.add("active")
+                p.classList.remove("hide")
             } else{
-                pItem.classList.remove("active")
+                if(data_set === id){
+                    p.classList.add("active")
+                    p.classList.remove("hide")
+                } else{
+                    p.classList.remove("active")
+                }
             }
-         }
-        
-       })
+        })
     })
 })
-
