@@ -2,31 +2,31 @@
 let categories = [
     {
       title: "Personal",
-      img: "/img/boy.png"
+      img: "./img/boy.png"
     },
     {
       title: "Work",
-      img: "/img/work.png",
+      img: "./img/work.png",
     },
     {
       title: "Shopping",
-      img: "/img/shop.png",
+      img: "./img/shop.png",
     },
     {
       title: "Coding",
-      img: "/img/cooding.png",
+      img: "./img/cooding.png",
     },
     {
       title: "Health",
-      img: "/img/health.png",
+      img: "./img/health.png",
     },
     {
       title: "Fitness",
-      img: "/img/fitness.png",
+      img: "./img/fitness.png",
     },
     {
       title: "Education",
-      img: "/img/education.png",
+      img: "./img/education.png",
     },
     {
       title: "Finance",
