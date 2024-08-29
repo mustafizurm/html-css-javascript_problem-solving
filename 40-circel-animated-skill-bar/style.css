@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.skill{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(red 3.6deg, gray 0deg);
+    position: relative;
+    animation: animate .80s linear forwards;
+}
+
+@keyframes animate {
+
+    0%{
+        background: conic-gradient(red 40deg,gray 0deg);
+    }
+    5%{
+        background: conic-gradient(red 50deg,gray 0deg);
+    }
+    10%{
+        background: conic-gradient(red 60deg,gray 0deg);
+    }
+    15%{
+        background: conic-gradient(red 70deg,gray 0deg);
+    }
+    20%{
+        background: conic-gradient(red 80deg,gray 0deg);
+    }
+    25%{
+        background: conic-gradient(red 90deg,gray 0deg);
+    }
+    30%{
+        background: conic-gradient(red 100deg,gray 0deg);
+    }
+    35%{
+        background: conic-gradient(red 110deg,gray 0deg);
+    }
+    40%{
+        background: conic-gradient(red 120deg,gray 0deg);
+    }
+    45%{
+        background: conic-gradient(red 130deg,gray 0deg);
+    }
+    50%{
+        background: conic-gradient(red 140deg,gray 0deg);
+    }
+    55%{
+        background: conic-gradient(red 150deg,gray 0deg);
+    }
+    60%{
+        background: conic-gradient(red 160deg,gray 0deg);
+    }
+    65%{
+        background: conic-gradient(red 170deg,gray 0deg);
+    }
+    70%{
+        background: conic-gradient(red 180deg,gray 0deg);
+    }
+    75%{
+        background: conic-gradient(red 190deg,gray 0deg);
+    }
+    80%{
+        background: conic-gradient(red 200deg,gray 0deg);
+    }
+    85%{
+        background: conic-gradient(red 210deg,gray 0deg);
+    }
+    90%{
+        background: conic-gradient(red 220deg,gray 0deg);
+    }
+    95%{
+        background: conic-gradient(red 230deg,gray 0deg);
+    }
+    100%{
+        background: conic-gradient(red 324deg,gray 0deg);
+    }
+}
+
+
+.skill span{
+    z-index: 10;
+}
+
+.skill::before{
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 50%;
+}
