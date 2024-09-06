@@ -282,5 +282,8 @@ section{
 }
 
 @media screen and (max-width:560px) {
-    
+    .home .content h1{
+        font-size: 3em;
+        line-height: 60px;
+    }
 }
