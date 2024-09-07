@@ -5,7 +5,9 @@
     font-family: "Roboto", sans-serif;
 }
 
-header{
+/* first */
+
+/* header{
     z-index: 999;
     position: absolute;
     top: 0px;
@@ -17,6 +19,7 @@ header{
     padding: 15px;
     transition: 0.5s ease;
 }
+
 
 header .brand{
     color: white;
@@ -285,5 +288,258 @@ section{
     .home .content h1{
         font-size: 3em;
         line-height: 60px;
+    }
+} */
+
+
+
+/* second */
+
+/* .container{
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.slider{
+    position: absolute;
+    inset: 80px 200px 80px 80px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+
+.slider .slides{
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    background:var(--img);
+    background-position: center;
+    background-size: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+.slider .slides:nth-child(1),
+.slider .slides:nth-child(2)
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    transform: translate(0%);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0);
+    background-size: cover;
+}
+
+.slider .slides:nth-child(3){
+    left: calc(50% + 240px);
+    background-size: cover;
+}
+.slider .slides:nth-child(4){
+    left: calc(50% + 500px);
+    background-size: cover;
+}
+
+.slider .slides:nth-child(5){
+    left: calc(50% + 760px);
+    background-size: cover;
+}
+
+
+.slider .slides:nth-child(6){
+    left: calc(50% + 1020px);
+    background-size: cover;
+} 
+
+
+.buttons{
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons span{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #111;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.buttons span::before{
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    transform: rotate(315deg) translate(2px, 2px);
+}
+
+.buttons span:nth-child(2)::before{
+    transform: rotate(135deg) translate(2px, 2px);
+}
+
+.buttons span:active{
+    opacity: 0.5;
+}  */
+
+
+
+
+/* third */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    padding: 50px 0px;
+}
+
+.slider{
+    width: 1200px;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slider .slide{
+    position: absolute;
+    width: 240px;
+    height: 320px;
+    top: 0px;
+    left: 0px;
+    background:var(--img);
+    background-position: center;
+    background-size: cover;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.slider .slide:nth-child(1) .content,
+.slider .slide:nth-child(2) .content{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    animation: animate .7s forwards;
+}
+
+.slider .slide:nth-child(1) .content h3,
+.slider .slide:nth-child(2) .content h3{
+    font-size: 90px;
+    color: white;
+    animation: animate 1s ease-in-out 1 forwards;
+}
+
+
+.slider .slide:nth-child(1) .content p,
+.slider .slide:nth-child(2) .content p{
+  color: gray;
+  padding: 20px 0px;
+  line-height: 28px;
+  animation: animate 1s ease-in-out 0.3s 1 forwards;
+}
+
+
+.slider .slide:nth-child(1) .content button,
+.slider .slide:nth-child(2) .content button{
+    padding: 5px 20px;
+    background:transparent;
+    color: white;
+    border: none;
+    outline: 1px solid white;
+    cursor: pointer;
+    border-radius: 2px;
+    animation: animate 1s ease-in-out 0.6s 1 forwards;
+}
+
+.slider .slide:nth-child(1),
+.slider .slide:nth-child(2){
+    width: 100%;
+    height: 100%;
+}
+
+.slider .slide:nth-child(1),
+.slider .slide:nth-child(2)::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slide:nth-child(3){
+    left: calc(50% + 50px);
+}
+
+.slide:nth-child(4){
+    left: calc(50% + 320px);
+}
+
+.slide:nth-child(5){
+    left: calc(50% + 720px);
+}
+
+.slide:nth-child(6){
+    left: calc(50% + 940px);
+}
+
+
+.slide:nth-child(3) .content,
+.slide:nth-child(4) .content,
+.slide:nth-child(5) .content,
+.slide:nth-child(6) .content{
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.buttons div{
+    padding: 5px 12px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+}
+
+@keyframes animate {
+    from{
+        transform: translateY(200px);
+        opacity: 0;
+        filter: blur(33px);
+    } to{
+        transform: translateY(0px);
+        opacity: 1;
+        filter: blur(0);
     }
 }
