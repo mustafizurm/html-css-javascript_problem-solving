@@ -147,3 +147,65 @@
 // })
 
 
+
+
+// fiz step-3
+
+const wrapper = document.querySelector(".wrapper");
+const slideWidth = document.querySelector(".slide").offsetWidth;
+const buttons = document.querySelectorAll("button")
+
+
+let startX = '';
+let isDragging = false;
+let prevscrollLeft = 0;
+
+let counter = 0;
+
+buttons.forEach((btn)=>{
+    btn.addEventListener('click', ()=>{
+        if(btn.id === "next"){
+            counter ++
+            if(counter >= 5){
+                counter = 4;
+                wrapper.scrollLeft = slideWidth * counter;
+            }
+
+            wrapper.scrollLeft = slideWidth * counter;
+        } else{
+           counter --
+           wrapper.scrollLeft = slideWidth * counter;
+
+           if(counter < 0){
+            counter = 0;
+             wrapper.scrollLeft = slideWidth * counter;
+           }
+        }
+    })
+})
+
+// all function
+const dragstart = (e) =>{
+    isDragging = true;
+    wrapper.classList.add("dragging")
+    startX = e.pageX;
+
+    prevscrollLeft = wrapper.scrollLeft;
+}
+
+const dragMove = (e) =>{
+    if(isDragging){
+        let posDiffer = e.pageX - startX;
+        wrapper.scrollLeft = prevscrollLeft - posDiffer;
+    }
+
+}
+
+const dragEnd = () =>{
+    wrapper.classList.remove("dragging")
+   isDragging = false;
+}
+
+wrapper.addEventListener("mousedown", dragstart)
+wrapper.addEventListener("mouseover", dragMove)
+wrapper.addEventListener("mouseup", dragEnd)
