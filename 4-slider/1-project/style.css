@@ -1,10 +1,10 @@
-*{
+/* *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-/* real */
+
 
  body{
     background-color: indigo;
@@ -118,4 +118,93 @@
 }
 
  
+ */
 
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+ }
+
+ .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80AF81;
+ }
+
+
+ .wrapper{
+    max-width: calc(1000px - 30px);
+    /* height: 300px; */
+    display: flex;
+    column-gap: 30px;
+    /* overflow-x: auto;
+    scrollbar-width: none;
+    scroll-behavior: smooth; */
+ }
+
+ .wrapper .slide{
+    min-width: calc(333px - 30px);
+    height: 100%;
+    padding: 20px;
+    background-color: #D6EFD8;
+    border-radius: 10px;
+ }
+
+ .slide img{
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+ }
+
+ .slide .content{
+    padding-top: 20px;
+ }
+
+ .content .title{
+    padding: 5px 18px;
+    display: inline;
+    border-radius: 20px;
+    color: indigo;
+ }
+
+ .designer{
+    background-color: rgba(232,184,109, 0.5);
+ }
+
+ .developer{
+    background-color:  rgba(86, 164, 245, 0.5);
+ }
+
+ .marketer{
+    background-color:  rgba(39, 87, 0, 0.5);
+ }
+
+
+
+ .content p{
+    font-size: 13px;
+    padding: 13px 0px;
+    margin: 10px 0px;
+ }
+
+ .icon{
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid #80AF81;
+    display: inline;
+    cursor: pointer;
+ }
+
+ .icon i{
+    transform: rotate(-30deg);
+ }
+
+
+
+ /*  */
