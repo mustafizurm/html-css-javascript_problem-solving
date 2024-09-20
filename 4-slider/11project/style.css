@@ -1,0 +1,263 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+ body{
+    background-color: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0px 35px;
+}
+.wrapper{
+    position: relative;
+    max-width: 1100px;
+    width: 100%;
+}
+
+
+.wrapper .carousel{
+    max-width: 1100px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    gap: 16px;
+    overflow:hidden;
+    transition: all 0.5s ease;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.carousel :where(.card, .img){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .card{
+    scroll-snap-align:start;
+    list-style-type: none;
+    border-radius: 8px;
+    height: 342px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.card .img img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+
+
+
+
+
+
+
+.carousel::-webkit-scrollbar{
+    display: none;
+}
+
+.wrapper i{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0px 3px  6px rgba(0, 0, 0, 0.23);
+}
+
+.wrapper i:first-child{
+    left: -22px;
+}
+
+.wrapper i:last-child{
+    right: -22px;
+}
+
+.carousel.dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.no-transition{
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card{
+    cursor:grab;
+    user-select: none;
+}
+
+
+
+.card .img{
+    background-color: indigo;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+} 
+
+ 
+/* 
+
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+ }
+
+ .container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80AF81;
+    flex-direction: column;
+    z-index: -1;
+ }
+
+
+ .wrapper{
+    max-width: calc(1000px - 30px);
+    display: flex;
+    column-gap: 30px;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    transition: all .5s ease;
+ }
+
+ .wrapper.dragging{
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+ }
+
+ .wrapper.no-transition{
+    scroll-behavior: auto;
+    transition: none;
+}
+
+ .wrapper .slide{
+    min-width: calc(333px - 30px);
+    height: 100%;
+    padding: 20px;
+    background-color: #D6EFD8;
+    border-radius: 10px;
+    scroll-snap-align:start;
+    list-style-type: none;
+ }
+
+ .slide img{
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+ }
+
+ .slide .content{
+    padding-top: 20px;
+ }
+
+ .content .title{
+    padding: 5px 18px;
+    display: inline;
+    border-radius: 20px;
+    color: indigo;
+ }
+
+ .designer{
+    background-color: rgba(232,184,109, 0.5);
+ }
+
+ .developer{
+    background-color:  rgba(86, 164, 245, 0.5);
+ }
+
+ .marketer{
+    background-color:  rgba(39, 87, 0, 0.5);
+ }
+
+
+
+ .content p{
+    font-size: 13px;
+    padding: 13px 0px;
+    margin: 10px 0px;
+ }
+
+ .icon{
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid #80AF81;
+    display: inline;
+    cursor: pointer;
+ }
+
+ .icon i{
+    transform: rotate(-30deg);
+ }
+
+ .buttons{
+    margin-top: 20px;
+ }
+ .buttons button{
+    padding: 6px 26px;
+ }
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:1065px) {
+    .wrapper{
+        max-width: calc(700px - 30px);
+    }
+
+    .wrapper .slide{
+        min-width: calc(350px - 30px);
+     }
+ }
+
+ 
+ @media screen and (max-width:740px) {
+    .wrapper{
+        max-width: 60%;
+    }
+
+    .wrapper .slide{
+        min-width:100%;
+     }
+ }
+  */
