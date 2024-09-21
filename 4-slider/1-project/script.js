@@ -1,7 +1,7 @@
 const wrapper = document.querySelector(".wrapper");
 const slides = document.querySelector(".slides");
 const slideAll = document.querySelectorAll(".slide");
-const slideWidth = 366
+const slideWidth = document.querySelector(".slide").offsetWidth + 25;
 const prev = document.querySelector("#prev");
 const next = document.querySelector("#next");
 

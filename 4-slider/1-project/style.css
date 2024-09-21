@@ -153,21 +153,30 @@
 
  @media screen and (max-width:1065px) {
     .wrapper{
-        max-width: calc(700px - 30px);
+        max-width: 800px;
     }
 
+    .wrapper .slides{
+      max-width: calc(800px - 25px);
+    }
+
+
     .wrapper .slide{
-        min-width: calc(350px - 30px);
+        min-width: calc(400px - 25px);
      }
  }
 
- 
- @media screen and (max-width:740px) {
-    .wrapper{
-        max-width: 60%;
-    }
+ @media screen and (max-width:730px) {
+   .wrapper{
+       max-width: 80%;
+   }
 
-    .wrapper .slide{
-        min-width:100%;
-     }
- }
+   .wrapper .slides{
+     max-width: 100%;
+   }
+
+
+   .wrapper .slide{
+       min-width: 100%;
+    }
+}
