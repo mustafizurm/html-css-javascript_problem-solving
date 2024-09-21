@@ -2,55 +2,172 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
+    font-family: "Roboto", sans-serif;
+ }
 
-.container{
-    width: 70%;
-    height: 400px;
+ .container{
+    width: 100%;
+    height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    background-color: #80AF81;
     flex-direction: column;
-    overflow: hidden;
-    margin: 0px auto;
-}
+    z-index: -1;
+ }
 
 
-.slides{
-    display: flex;
-    width: 100%;
-    height: 100%;
+ .wrapper{
+    max-width: 1100px;
+    height: 350px;
     position: relative;
-    transition: all 0.4s ease;
-}
+    overflow: hidden;
+ }
 
+ .wrapper .btn{
+   position: absolute;
+   z-index: 1;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   background-color: white;
+   text-align: center;
+   line-height: 50px;
+   border-radius: 50%;
+   cursor: pointer;
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   box-shadow: 0px 3px  6px rgba(0, 0, 0, 0.23);
+ }
 
+ .wrapper .prev{
 
-.container .slide{
-    min-width: 1200px;
-    background-color: #2222;
-}
+   left: -22px;
+ }
 
-.slide img{
-    width: 100%;
-    height: 100%;
-}
+ .wrapper .next{
 
+   right: -22px;
+ }
 
-.buttons{
-    /* margin-top: 150px; */
+ .wrapper .slides{
+   max-width: calc(1100px - 25px);
+   height: 100%;
    display: flex;
-   justify-content: center;
-   margin-top: 40px;
-   column-gap: 20px;
+   column-gap: 25px;
+   transition: all .4s ease-in-out;
+   
+ }
+
+ 
+
+
+ .wrapper .slide{
+    min-width: calc(366px - 25px);
+    height: 100%;
+    padding: 20px;
+    background-color: #D6EFD8;
+    border-radius: 10px;
+    scroll-snap-align:start;
+    list-style-type: none;
+ }
+
+ .slide img{
+    width: 100%;
+    height: 160px;
+    border-radius: 10px;
+ }
+
+ .slide .content{
+    padding-top: 20px;
+ }
+
+ .content .title{
+    padding: 5px 18px;
+    display: inline;
+    border-radius: 20px;
+    color: indigo;
+ }
+
+ .designer{
+    background-color: rgba(232,184,109, 0.5);
+ }
+
+ .developer{
+    background-color:  rgba(86, 164, 245, 0.5);
+ }
+
+ .marketer{
+    background-color:  rgba(39, 87, 0, 0.5);
+ }
+
+ .createor{
+   background-color:  rgba(50, 37, 0, 0.5);
+}
+
+.editor{
+   background-color:  rgba(237, 191, 64, 0.5);
 }
 
 
- button{
-    padding: 5px 25px;
+.gamer{
+   background-color:  rgba(52, 18, 131, 0.5);
+}
+
+
+.programmer{
+   background-color:  rgba(72, 180, 22, 0.5);
+}
+
+
+
+
+
+ .content p{
+    font-size: 13px;
+    padding: 13px 0px;
+    margin: 10px 0px;
+ }
+
+ .icon{
+    padding: 6px;
+    border-radius: 50%;
+    border: 1px solid #80AF81;
+    display: inline;
     cursor: pointer;
-    outline: none;
-    border: none;
-    background-color: #222;
-    color: white;
-}
+ }
+
+ .icon i{
+    transform: rotate(-30deg);
+ }
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:1065px) {
+    .wrapper{
+        max-width: calc(700px - 30px);
+    }
+
+    .wrapper .slide{
+        min-width: calc(350px - 30px);
+     }
+ }
+
+ 
+ @media screen and (max-width:740px) {
+    .wrapper{
+        max-width: 60%;
+    }
+
+    .wrapper .slide{
+        min-width:100%;
+     }
+ }
