@@ -13,27 +13,27 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 
 ## Projects
 
-### 1. **Project Name 1**
+### Project Name 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
 
-### 2. **Project Name 2**
+### Project Name 2
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
 
-### 3. **Project Name 3**
+### Project Name 3
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
 
-### 4. **Project Name 4**
+### Project Name 4
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
 
-### 5. **Project Name 5**
+### Project Name 5
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
@@ -57,6 +57,3 @@ If you want to clone this repository and run the projects locally, follow these 
 ## Contributing
 
 Contributions are welcome! If you have suggestions for improvements or new projects, feel free to open an issue or submit a pull request.
-
-
-
