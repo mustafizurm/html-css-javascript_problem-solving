@@ -3,6 +3,7 @@
 const buttons = document.querySelectorAll(".dot");
 const slideParent = document.querySelector(".tetimoniums");
 
+
 buttons[0].addEventListener("click", ()=>{
     slideParent.style.marginLeft = "0px";
     buttons[0].style.width = "35px";
