@@ -10,6 +10,7 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 3. [Project Name 3](#project-name-3)
 4. [Project Name 4](#project-name-4)
 5. [Project Name 5](#project-name-5)
+6. [Project Name 6](#project-name-6)
 
 ## Projects
 
@@ -34,6 +35,11 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 - **Live Demo:** [Live Link](#)
 
 ### Project Name 5
+- **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
+- **Code:** [GitHub Link](#)
+- **Live Demo:** [Live Link](#)
+
+ ### Project Name 6
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
