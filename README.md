@@ -10,7 +10,7 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 3. [Filter 1](#Filter-1)
 4. [Testimonium 1](#testimonium-1)
 5. [Testimonium 2](#testimonium-2)
-6. [Project Name 6](#project-name-6)
+6. [Slider 1](#slider-1)
 
 ## Projects
 
@@ -39,7 +39,7 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
 
- ### Project Name 6
+ ### Slider 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
