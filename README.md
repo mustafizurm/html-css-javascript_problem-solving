@@ -16,33 +16,33 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 
 ### Todo 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/1-todo/1-project)](#)
 - **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/1-todo/1-project/)](#)
 
 ### Todo 2
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/1-todo/2-project)](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/1-todo/2-project/)](#)
 
 ### Filter 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [https://github.com/mustafizurm/javascript_mini_projects/tree/main/2-filter/1-project](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/2-filter/1-project/)](#)
 
 ### Testimonium 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/3-testimonium/1-project/)](#)
 
 ### Testimonium 2
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [https://github.com/mustafizurm/javascript_mini_projects/tree/main/3-testimonium/2-project](#)
+- **Live Demo:** [https://4-all-javascript-mini-projects.netlify.app/3-testimonium/2-project/](#)
 
  ### Slider 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [https://github.com/mustafizurm/javascript_mini_projects/tree/main/4-slider/1-project](#)
+- **Live Demo:** [https://4-all-javascript-mini-projects.netlify.app/4-slider/1-project/](#)
 
 ## Getting Started
 
