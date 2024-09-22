@@ -5,44 +5,44 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 
 ## Table of Contents
 
-1. [Project Name 1](#project-name-1)
-2. [Project Name 2](#project-name-2)
-3. [Project Name 3](#project-name-3)
-4. [Project Name 4](#project-name-4)
-5. [Project Name 5](#project-name-5)
-6. [Project Name 6](#project-name-6)
+1. [Todo 1](#todo-1)
+2. [Todo 2](#todo-2)
+3. [Filter 1](#Filter-1)
+4. [Testimonium 1](#testimonium-1)
+5. [Testimonium 2](#testimonium-2)
+6. [Slider 1](#slider-1)
 
 ## Projects
 
-### Project Name 1
+### Todo 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/1-todo/1-project)](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/1-todo/1-project/)](#)
 
-### Project Name 2
+### Todo 2
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [[GitHub Link][GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/1-todo/2-project)](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/1-todo/2-project/)](#)
 
-### Project Name 3
+### Filter 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/2-filter/1-project)](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/2-filter/1-project/)](#)
 
-### Project Name 4
+### Testimonium 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/3-testimonium/1-project)](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/3-testimonium/1-project/)](#)
 
-### Project Name 5
+### Testimonium 2
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/3-testimonium/2-project)](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/3-testimonium/2-project/)](#) 
 
- ### Project Name 6
+ ### Slider 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
-- **Live Demo:** [Live Link](#)
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/4-slider/1-project)](#)
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/4-slider/1-project)](#) 
 
 ## Getting Started
 
