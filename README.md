@@ -5,7 +5,7 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 
 ## Table of Contents
 
-1. [Project Name 1](#project-name-1)
+1. [Todo 1](#todo-1)
 2. [Project Name 2](#project-name-2)
 3. [Project Name 3](#project-name-3)
 4. [Project Name 4](#project-name-4)
@@ -14,7 +14,7 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 
 ## Projects
 
-### Project Name 1
+### Todo 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [GitHub Link](#)
 - **Live Demo:** [Live Link](#)
