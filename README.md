@@ -31,7 +31,7 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 
 ### Testimonium 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
-- **Code:** [GitHub Link](#)
+- **Code:** [GitHub Link(https://github.com/mustafizurm/javascript_mini_projects/tree/main/3-testimonium/1-project)](#)
 - **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/3-testimonium/1-project/)](#)
 
 ### Testimonium 2
