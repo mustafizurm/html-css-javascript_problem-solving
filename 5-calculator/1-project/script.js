@@ -23,6 +23,7 @@ buttons.forEach((btn)=>{
     } else{
         if(btn.innerHTML == "Clear"){
             input.innerHTML = "00"
+            document.querySelector(".input").style.fontSize = "30px"
         } else{
             if(btn.innerHTML == "+" && input.innerHTML == "00" || btn.innerHTML == "-" && input.innerHTML == "00" || btn.innerHTML == "*" && input.innerHTML == "00" || btn.innerHTML == "/" && input.innerHTML == "00" || btn.innerHTML == "=" && input.innerHTML == "00" ){
                 input.innerHTML == "00"

@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     column-gap: 50px;
+    overflow: hidden;
 }
 
 .container .wrapper{
@@ -19,6 +20,7 @@
     border-radius: 10px;
     box-shadow: 5px 5px 10px gainsboro, -20px 
     -5px 20px whitesmoke;
+    overflow: hidden;
     overflow: hidden;
 }
 
