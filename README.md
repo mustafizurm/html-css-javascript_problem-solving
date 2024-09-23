@@ -11,6 +11,7 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
 4. [Testimonium 1](#testimonium-1)
 5. [Testimonium 2](#testimonium-2)
 6. [Slider 1](#slider-1)
+7. [Calculator 1](#calculator-1)
 
 ## Projects
 
@@ -42,7 +43,12 @@ Welcome to my Mini Projects Collection! This repository showcases a variety of s
  ### Slider 1
 - **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
 - **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/4-slider/1-project)](#)
-- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/4-slider/1-project)](#) 
+- **Live Demo:** [[Live Link](https://4-all-javascript-mini-projects.netlify.app/4-slider/1-project)](#)
+
+   ### Calculator 1
+- **Description:** A brief overview of what this project does and any interesting technologies or concepts used.
+- **Code:** [[GitHub Link](https://github.com/mustafizurm/javascript_mini_projects/tree/main/5-calculator/1-project)](#)
+- **Live Demo:** [[Live Link]()](#) 
 
 ## Getting Started
 
