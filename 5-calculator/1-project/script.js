@@ -20,6 +20,7 @@ buttons.forEach((btn)=>{
 
     if(btn.innerHTML == "=" && input.innerHTML !== "00"){
         input.innerHTML = eval(input.innerHTML)
+        document.querySelector(".input").style.fontSize = "30px"
     } else{
         if(btn.innerHTML == "Clear"){
             input.innerHTML = "00"
@@ -32,6 +33,7 @@ buttons.forEach((btn)=>{
                         input.innerHTML = "";
                     }
                     input.innerHTML = input.innerHTML + btn.innerHTML;
+                    document.querySelector(".input").style.fontSize = "30px"
             }
         }
     }    
