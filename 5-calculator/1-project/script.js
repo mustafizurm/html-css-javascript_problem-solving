@@ -14,17 +14,12 @@ buttons.forEach((btn)=>{
         arr.push(btn.innerHTML)
     }
 
-    if(arr.length > 15){
-        document.querySelector(".input").style.fontSize = "19px"
-    }
 
     if(btn.innerHTML == "=" && input.innerHTML !== "00"){
         input.innerHTML = eval(input.innerHTML)
-        document.querySelector(".input").style.fontSize = "30px"
     } else{
         if(btn.innerHTML == "Clear"){
             input.innerHTML = "00"
-            document.querySelector(".input").style.fontSize = "30px"
         } else{
             if(btn.innerHTML == "+" && input.innerHTML == "00" || btn.innerHTML == "-" && input.innerHTML == "00" || btn.innerHTML == "*" && input.innerHTML == "00" || btn.innerHTML == "/" && input.innerHTML == "00" || btn.innerHTML == "=" && input.innerHTML == "00" ){
                 input.innerHTML == "00"
@@ -33,7 +28,6 @@ buttons.forEach((btn)=>{
                         input.innerHTML = "";
                     }
                     input.innerHTML = input.innerHTML + btn.innerHTML;
-                    document.querySelector(".input").style.fontSize = "30px"
             }
         }
     }    
