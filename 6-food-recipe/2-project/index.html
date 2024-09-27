@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 1200px;
+            margin: 0px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            row-gap: 50px;
+        }
+
+        .container .content{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 50px;
+        }
+
+        .content .item{
+            background-color: aqua;
+            min-width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Practice</h1>
+        <div class="content">
+
+        </div>
+    </div>
+
+    <script>
+
+        const data = [
+            {
+                id:1,
+                countryName: "bangladesh",
+                psCode:23943,
+            },
+            {
+                id:2,
+                countryName: "pakistan",
+                psCode:23943,
+            },
+            {
+                id:3,
+                countryName: "india",
+                psCode:23943,
+            },
+            {
+                id:4,
+                countryName: "japan",
+                psCode:23943,
+            },
+            {
+                id:5,
+                countryName: "nepal",
+                psCode:23943,
+            }
+
+        ]
+        const content = document.querySelector(".content");
+
+        let id = 2;
+
+        const funck = () =>{
+            content.innerHTML = data.map((d)=> `
+            <div onclick="handler('${encodeURIComponent(JSON.stringify(d))}')" class="item">
+                <h2>Country:${d.countryName}</h2>
+                <h5>PsCode:${d.psCode}</h5>
+                <button onclick="handler('${d.id}')">Get Details</button>
+            </div>
+            `)
+        }
+
+        const handler = (item) =>{
+ 
+            // data.forEach((d)=>{
+            //     if(d.id == id){
+            //         console.log(d);
+            //     }
+            // })
+
+            console.log(JSON.parse(decodeURIComponent(item)));
+        }
+
+
+
+        funck();
+    </script>
+</body>
+</html>
