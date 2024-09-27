@@ -176,9 +176,22 @@ header{
     .search-container button, input{
         padding: 12px;
     }
+
+    .search-container{
+        width: 300px;
+    }
+
+    .search-container button, input{
+        padding: 10px;
+    }
+
+    .food-detail img{
+        width: 300px;
+        height: 240px;
+    }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .food-container{
         width: 100%;
         display: flex;
@@ -194,15 +207,15 @@ header{
     }
 
     .search-container{
-        width: 390px;
+        width: 290px;
     }
 
     .search-container button, input{
-        padding: 10px;
+        padding: 5px;
     }
 
     .food-detail img{
-        width: 400px;
+        width: 300px;
         height: 240px;
     }
 }
