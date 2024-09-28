@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.container .category{
+    width: 15%;
+    background-color: #2555;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    row-gap: 30px;
+    padding: 150px 20px;
+}
+
+.category li{
+    color: black;
+    cursor: pointer;
+}
+
+.category li:hover{
+    color: indigo;
+}
+
+
+
+.container .terms-area{
+    width: 85%;
+    background-color: white;
+    position: relative;
+    left: 15%;
+}
+
+.terms-area h1{
+    text-align: center;
+    padding: 30px 0px;
+    color: indigo;
+}
+
+.tab-detals{
+    padding: 0px 40px;
+}
+
+.tab-detals p{
+    padding-bottom: 35px;
+}
+
+.tab-list h3{
+    padding-bottom: 20px;
+    color: indigo;
+}
+
+.tab-list{
+    display: none;
+}
+
+.tab-list.active{
+    display: block;
+}
+
+
+@media screen and (max-width:1200px) {
+    .container .category{
+        width:23%;
+    }
+
+    .container .terms-area{
+        width: 70%;
+        background-color: white;
+        position: relative;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width:1002px) {
+    .container .category{
+        width: 28%;
+    }
+
+    .container .terms-area{
+        width: 65%;
+        background-color: white;
+        position: relative;
+        left: 30%;
+    }
+}
