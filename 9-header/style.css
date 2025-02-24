@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transition: all .6s;
+}
+
+header.sticky{
+    background-color: white;
+}
+
+header.sticky nav{
+    padding: 10px 0px;
+}
+
+nav{
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 0px;
+    align-items: center;
+    transition: all .6s;
+}
+
+
+nav .logo{
+    font-size: 49px;
+    color: orange;
+}
+
+nav ul{
+    display: flex;
+    column-gap: 25px;
+}
+
+ul li{
+    list-style-type: none;
+    font-size: 23px;
+    color: gray;
+    cursor: pointer;
+}
+
+button{
+    padding: 8px 30px;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.hero{
+    width: 100%;
+    height: 200vh;
+    background-color: thistle;
+}
+
+.services{
+    width: 100%;
+    height: 50vh;
+    background-color: whitesmoke;
+}
+
+.about{
+    width: 100%;
+    height: 50vh;
+    background-color: grey;
+}
