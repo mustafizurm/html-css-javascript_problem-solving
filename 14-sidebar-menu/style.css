@@ -1,0 +1,133 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.home-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(172, 172, 214);
+}
+
+.navbar-container{
+    width: 100px;
+    height: 800px;
+    background-color:gray;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding: 20px 20px;
+    transition: 0.1s;
+}
+.navbar-container:hover{
+    width: 230px;
+}
+
+.navbar .heading .images{
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+}
+
+.navbar .heading .images img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.navbar-container:hover .heading h2{
+    display: block;
+    text-align: center;
+}
+
+.heading h2{
+    text-align: center;
+    transition: 0.9s ease-in-out;
+}
+
+.links .item{
+    display: flex;
+}
+
+.item p{
+    margin-left: 10px;
+}
+
+/*  */
+
+
+
+.heading h2{
+    display: none;
+}
+
+.navbar-container:hover .links h4{
+    display: block;
+}
+
+.links h4{
+    display: none;
+}
+
+.navbar-container:hover .item p{
+    display: block;
+    transition: 0.6s;
+}
+
+.item p:hover{
+    transform: translateX(5px);
+    color: white;
+    cursor: pointer;
+}
+
+.item p{
+    display: none;
+}
+
+.links{
+    margin-top: 30px;
+}
+
+.navbar-container:hover .item{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navbar-container:hover .item i{
+    margin-bottom: 0px;
+}
+
+.item i{
+    margin-bottom: 24px;
+    font-size: 24px;
+}
+
+
+.first{
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+}
+
+.second{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+}
+
+.third{
+    width: 100%;
+    height: 100vh;
+    background-color: indigo;
+}

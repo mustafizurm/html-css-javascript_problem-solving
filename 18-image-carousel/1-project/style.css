@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222;
+    position: relative;
+}
+
+.wrapper{
+    width: 600px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.slider{
+    width: 400%;
+    height: 100%;
+    display: flex;
+    /* transition: all .1s ease-out; */
+    animation: slide 12s infinite;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    margin-top: 20px;
+}
+
+.dots label{
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+/* .dots label.active{
+    width: 30px;
+} */
+
+
+
+label:hover{
+    background-color: white;
+}
+
+#img1:checked ~ .slider{
+    margin-left: 0;
+}
+
+#img2:checked ~ .slider{
+    margin-left: -100%;
+}
+
+#img3:checked ~ .slider{
+    margin-left: -200%;
+}
+
+#img4:checked ~ .slider{
+    margin-left: -300%;
+}
+
+#img1:checked ~ .dots .one{
+    width: 35px;
+}
+
+/* #img1:checked ~ .dots .two,.three,.four{
+    width: 15px;
+} */
+
+#img2:checked ~ .dots .two{
+    width: 35px;
+}
+
+/* #img2:checked ~ .dots .one,.three,.four{
+    width: 15px;
+} */
+
+
+input{
+    display: none;
+}
+
+
+@keyframes slide {
+    0%{
+        .slider{
+            margin-left: 0%;
+        }
+    } 
+    5%{
+        .slider{
+            margin-left: 0%;
+        }
+    }
+
+    10%{
+        .slider{
+            margin-left: 0%;
+        }
+    }
+
+    15%{
+        margin-left: 0%;
+    }
+
+    20%{
+        margin-left: 0%;
+    }
+
+    25%{
+        margin-left: -100%;
+    }
+    30%{
+        margin-left: -100%;
+    }
+    35%{
+        margin-left: -100%;
+    }
+    40%{
+        margin-left: -100%;
+    }
+    45%{
+        margin-left: -100%;
+    }
+
+    50%{
+        margin-left: -200%;
+    }
+    55%{
+        margin-left: -200%;
+    }
+    60%{
+        margin-left: -200%;
+    }
+    65%{
+        margin-left: -200%;
+    }
+    70%{
+        margin-left: -200%;
+    }
+    75%{
+        margin-left: -300%;
+    }
+
+    85%{
+        margin-left: -300%;
+    }
+
+    90%{
+        margin-left: -300%;
+    }
+
+    100%{
+        margin-left: -300%;
+    }
+}

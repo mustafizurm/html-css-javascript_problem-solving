@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.add-card-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-card-section .container{
+    width: 1200px;
+    padding: 50px 0px;
+    display: flex;
+    column-gap: 50px;
+}
+
+.product-category{
+    display: flex;
+    column-gap: 20px;
+}
+.select-product{
+    width: 400px;
+    height: 400px;
+}
+
+.select-product img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.all-product .images{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.images{
+    width: 70px;
+    height: 100%;
+}
+
+.product-category .all-product .images img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.header .path-name{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header .title{
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 23px;
+}
+
+.header .price{
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.header select{
+    padding: 3px 15px;
+    margin: 10px 0px;
+}
+
+.header .numberbtn{
+    display: flex;
+    column-gap: 20px;
+}
+
+.numberbtn h2{
+    border: 1px solid gray;
+    padding: 6px 17px 6px 6px;
+    font-size: 18px;
+    color: gray;
+}
+
+.numberbtn button{
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+.product-details{
+    margin-top: 50px;
+}
+
+.product-details h4{
+    font-size: 20px;
+}
+
+.product-details p{
+    margin-top: 15px;
+    color: gray;
+}
+
+@media screen and (max-width:1300px) {
+    .add-card-section .container{
+        width: 900px;
+    }
+}
+
+
+@media screen and (max-width:980px) {
+    .add-card-section .container{
+        width: 85%;
+        flex-direction: column;
+    }
+}

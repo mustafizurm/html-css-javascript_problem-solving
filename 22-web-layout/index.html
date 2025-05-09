@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav
+            class="flex justify-between items-center py-[20px] w-[96%] sm:max-w-[620px] md:max-w-[660px] lg:max-w-[1010px] xl:max-w-[1260px] m-auto">
+            <div class="text-3xl">eStore</div>
+            <input class="min-w-[300px] hidden md:block bg-gray-50" type="search" placeholder="Search..." name="" id="">
+            <div class="flex gap-4 md:gap-8">
+                <i class="fa-solid fa-magnifying-glass text-1xl md:text-2xl"></i>
+                <i class="fa-solid fa-user text-1xl md:text-2xl"></i>
+                <i class="fa-solid fa-heart text-1xl md:text-2xl"></i>
+                <i class="fa-solid fa-cart-shopping text-1xl md:text-2xl"></i>
+                <i class="fa-solid fa-bars text-1xl md:text-2xl"></i>
+            </div>
+        </nav>
+        <ul class="hidden lg:block w-[95%] lg:max-w-[1012px] xl:max-w-[1300px] m-auto lg:flex gap-9 lg:mt-8">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Category</a>
+            <a href="">Product Details</a>
+            <a href="">Cart</a>
+            <a href="">Checkout</a>
+            <a href="">DroupDown</a>
+            <a href="">Contact</a>
+        </ul>
+    </header>
+
+    <!-- hero -->
+    <section class="lg:mt-[40px]">
+        <div class="w-[95%] md:max-w-[768px] lg:max-w-[1012px] xl:max-w-[1300px] m-auto lg:flex lg:justify-between">
+            <div class="text-center">
+                <button class="bg-indigo-500 text-white rounded-2xl text-[16px] py-[3px] px-[14px]">New Collection 2025</button>
+                <h1 class="mt-[10px] text-[40px] md:text-[14px]">Discover Stylish Fashion <br> For Every Season</h1>
+                <p class="mt-[30px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo. Vestibulum ante ipsum primis in faucibus.</p>
+                <div class="flex flex-col gap-4 mt-[30px] md:flex-row md:justify-center">
+                    <button class="bg-indigo-700 text-white py-[3px] cursor-pointer md:max-w-[170px] md:min-w-[170px]">Shop Now</button>
+                    <button class="cursor-pointer border p-3px] rounded md:max-w-[170px] md:min-w-[170px]">View Collection</button>
+                </div>
+                <div class="mt-[26px] flex flex-col gap-2 md:flex-row md:justify-center md:gap-9">
+                    <h4 class="text-2xl">Free Shiping</h4>
+                    <h4 class="text-2xl">Secure Payment</h4>
+                    <h4 class="text-2xl">Easy Returns</h4>
+                </div>
+            </div>
+            <div class="min-w-[200px]">
+                <img class="w-[100%]" src="./images/shopping_man.png.png" alt="">
+            </div>
+        </div>
+      </section>
+
+
+    <!-- services -->
+    <section>
+        <div class="w-[95%] m-auto lg:mt-[40px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+            <div class="w-[100%] p-[24px] text-center">
+                <h3>Free Shiping</h3>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+            </div>
+            <div class="w-[100%] p-[24px] text-center">
+                <h3>Free Shiping</h3>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+            </div>
+            <div class="w-[100%] p-[24px] text-center">
+                <h3>Free Shiping</h3>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+            </div>
+            <div class="w-[100%] p-[24px] text-center">
+                <h3>Free Shiping</h3>
+                <p>Nulla sit morbi vestibulum eros duis amet, consectetur vitae lacus. Ut quis tempor felis sed nunc
+                    viverra.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- product slide -->
+    <section>
+        <div
+            class="w-[95%] m-auto mt-[40px] md:max-w-[667px] lg:max-w-[1012px] xl:max-w-[1300px] overflow-auto flex gap-3">
+            <div class="min-w-[250px] max-w-[250px] min-h-[200px] bg-gray-600">
+
+            </div>
+            <div class="min-w-[250px] max-w-[250px] min-h-[200px] bg-gray-600">
+
+            </div>
+            <div class="min-w-[250px] max-w-[250px] min-h-[200px] bg-gray-600">
+
+            </div>
+            <div class="min-w-[250px] max-w-[250px] min-h-[200px] bg-gray-600">
+
+            </div>
+            <div class="min-w-[250px] max-w-[250px] min-h-[200px] bg-gray-600">
+
+            </div>
+            <div class="min-w-[250px] max-w-[250px] min-h-[200px] bg-gray-600">
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- best seller -->
+    <section>
+        <div>
+            <h3 class="text-center text-2xl">Best Seller</h3>
+            <p class="text-center mt-[15px]">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur
+                velit</p>
+            <div
+                class="w-[95%] md:max-w-[667px] lg:max-w-[1012px] xl:max-w-[1300px] m-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                <div class=" min-h-[200px] bg-red-500"></div>
+                <div class=" bg-red-500 min-h-[200px]"></div>
+                <div class=" bg-red-500 min-h-[200px]"></div>
+                <div class=" bg-red-500 min-h-[200px]"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product filter -->
+    <section>
+        <div class="w-[95%] m-auto md:max-w-[667px] lg:max-w-[1012px] xl:max-w-[1300px]">
+            <div class="text-center text-4xl mt-10">Product Filter</div>
+            <div class="w-[100%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-7">
+                <div class="bg-orange-600 min-h-[200px]"></div>
+                <div class="bg-orange-600 min-h-[200px]"></div>
+                <div class="bg-orange-600 min-h-[200px]"></div>
+                <div class="bg-orange-600 min-h-[200px]"></div>
+
+            </div>
+        </div>
+    </section>
+
+     <!-- sm-640px  -->
+     <!-- md -768px -->
+      <!-- lg-1024px -->
+       <!-- xl-1280px -->
+
+
+       <!-- grid -->
+    <!-- <section>
+        <div class="w-[95%] m-auto sm:max-w-[620px] md:max-w-[750px] lg:max-w-[1010px] xl:max-w-[1260px]">
+            <h1 class="text-4xl text-center my-[20px]">Services</h1>
+            <p class="text-center my-[10px]">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem</p>
+            <div class="grid gap-7 lg:grid-cols-2">
+                <div class="">
+                    <h3 class="text-4xl py-[20px]">Consectetur adipiscing elit sed do eiusmod tempor</h3>
+                    <p class="mb-[6px]">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit class aptent taciti sociosqu ad litora.</p>
+                    <button class="bg-blue-700 text-white mb-6 px-[20px] py-[3px] cursor-pointer">See All Services</button>
+                </div>
+                <div class="grid gap-4 md:grid-cols-2">
+                    <div class="p-[30px] border ">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                    <div class="p-[30px] border">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                    <div class="p-[30px] border ">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                    <div class="p-[30px] border ">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+       <!-- flex -->
+    <section>
+        <div class="w-[95%] m-auto sm:max-w-[620px] md:max-w-[750px] lg:max-w-[1010px] xl:max-w-[1260px]">
+            <h1 class="text-4xl text-center my-[20px]">Services</h1>
+            <p class="text-center my-[10px]">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur vel illum qui dolorem</p>
+            <div class="lg:flex">
+                <div class="lg:w-[40%]">
+                    <h3 class="text-4xl py-[20px]">Consectetur adipiscing elit sed do eiusmod tempor</h3>
+                    <p class="mb-[6px]">Nulla metus metus ullamcorper vel tincidunt sed euismod nibh volutpat velit class aptent taciti sociosqu ad litora.</p>
+                    <button class="bg-blue-700 text-white mb-6 px-[20px] py-[3px] cursor-pointer">See All Services</button>
+                </div>
+                <div class="flex flex-col sm:flex-row sm:flex-wrap lg:w-[60%]">
+                    <div class="p-[30px] border sm:w-[50%]">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                    <div class="p-[30px] border sm:w-[50%]">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                    <div class="p-[30px] border sm:w-[50%]">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                    <div class="p-[30px] border sm:w-[50%]">
+                        <h3>Eget nulla facilisi etiam</h3>
+                        <p>Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+     <section>
+        <div class="w-[96%] sm:max-w-[620px] md:max-w-[660px] lg:max-w-[1010px] xl:max-w-[1260px] m-auto">
+            <h1 class="text-center text-5xl my-7">Our Services</h1>
+            <p class="text-center mb-5">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            <div class="w-100% grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                <div class="card">
+                    <img src="./images/service-1.jpg" alt="">
+                    <div class="p-[25px]">
+                        <h2>LOGISTICS</h2>
+                        <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/service-1.jpg" alt="">
+                    <div class="p-[25px]">
+                        <h2>LOGISTICS</h2>
+                        <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/service-1.jpg" alt="">
+                    <div class="p-[25px]">
+                        <h2>LOGISTICS</h2>
+                        <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/service-1.jpg" alt="">
+                    <div class="p-[25px]">
+                        <h2>LOGISTICS</h2>
+                        <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/service-1.jpg" alt="">
+                    <div class="p-[25px]">
+                        <h2>LOGISTICS</h2>
+                        <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/service-1.jpg" alt="">
+                    <div class="p-[25px]">
+                        <h2>LOGISTICS</h2>
+                        <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+
+     <!-- product page -->
+      <section>
+        <div class="w-[96%] sm:max-w-[620px] md:max-w-[660px] lg:max-w-[1010px] xl:max-w-[1260px] m-auto h-[200px] bg-gray-600 flex">
+            <div class="hidden lg:block lg:w-[20%] h-[200px] bg-red-400"></div>
+            <div class="w-[100%] lg:max-w-[80%] h-[200px] bg-green-400"></div>
+        </div>
+      </section>
+
+</body>
+
+</html>

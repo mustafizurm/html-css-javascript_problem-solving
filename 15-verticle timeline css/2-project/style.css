@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
+    color: indigo;
+}
+
+.achive-container{
+    position: relative;
+}
+.achive-container::before{
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    content: "";
+    top: 50px;
+    left: 50%;
+    background-color: indigo;
+}
+
+.item{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+ span{
+    padding: 5px 20px;
+    background-color: indigo;
+    width: 180px;
+    color: white; 
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    transform: translateX(-30px);
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+
+.right{
+    position: relative;
+    left: 50%;
+    transform: translateX(30px);
+}
+
+
+.card{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 30px;
+}
+
+.card h3{
+    color: indigo;
+}
+
+.card p{
+    padding: 10px 0px;
+}
+
+.card button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    color: indigo;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 40px;
+}
+
+
+@media screen and (max-width:1370px) {
+    .container{
+        width: 1000px;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    .container{
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:917px) {
+    .container{
+        width: 80%;
+    }
+
+    .item{
+        width: 100%;
+    }
+
+    .left{
+        transform: translateX(0px);
+        display: flex;
+        flex-direction: column;
+        align-items:start;
+    }
+    
+    .right{
+        position: relative;
+        left:0%;
+        transform: translateX(0px);
+    }
+
+    .card-left{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .achive-container::before{
+        width: 3px;
+        height: 100%;
+        position: absolute;
+        content: "";
+        top: 50px;
+        left: -5%;
+        background-color: indigo;
+    }
+
+    .item span{
+        margin-top: 20px;
+    }
+    
+}

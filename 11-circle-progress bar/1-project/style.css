@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    background-color: black;
+}
+
+.container{
+    width: calc(1000px - 40px);
+    column-gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container .progress{
+    position: relative;
+    width: calc(250px - 40px);
+    height: 250px;
+    border-radius: 50%;
+    color: white;
+}
+
+.container .html{
+    background:#444 linear-gradient(to right, transparent 20%,  var(--clr) 0);
+}
+
+.container .css{
+    background:#444 linear-gradient(to right, transparent 30%, var(--clr) 0);
+}
+
+.container .js{
+    background:#444 linear-gradient(to right, transparent 40%, var(--clr) 0);
+}
+
+.container .react{
+    background:#444 linear-gradient(to right, transparent 50%, var(--clr) 0);
+}
+
+.container .progress h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    z-index: 1;
+    font-weight: 500;
+}
+
+.container .progress h3 span{
+    font-size: 0.65em;
+    font-weight: 400;
+}
+
+.container .progress h4{
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--clr);
+    text-transform: uppercase;
+}
+
+
+
+.container .progress::after{
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background-color: #222;
+    border-radius: 50%;
+} 
+
+
+.progress h3{
+    font-size: 46px;
+}
+
+.progress h4{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    .container{
+        width: calc(800px - 40px);
+        row-gap: 40px;
+    }
+
+    .progress{
+        width:calc(266px - 40px);
+    }
+}
+
+
+/* @media screen and (max-width:860px) {
+    .container{
+        width: calc(600px - 40px);
+        row-gap: 40px;
+    }
+
+    .progress{
+        width:calc(300px - 40px);
+    }
+} */
+
+
+@media screen and (max-width:670px) {
+    .container{
+        width: 90%;
+        height: 100%;
+        row-gap: 40px;
+        justify-content: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .progress{
+        width:100%;
+    }
+}

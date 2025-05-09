@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/* .container{
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+}
+
+.container::after{
+    top: 0px;
+    left: 50%;
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: dodgerblue;
+}
+
+
+.child{
+    padding: 30px;
+    width: 50%;
+}
+
+.child:nth-child(odd){
+    background-color: yellow;
+    transform: translateX(-30px);
+    position: relative;
+}
+
+.child:nth-child(odd)::before{
+    position: absolute;
+    top: 0px;
+    right: -42px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.child:nth-child(even){
+    position: relative;
+    left: 50%;
+    background-color: rebeccapurple;
+    transform: translateX(30px);
+
+} */
+
+/*  */
+
+.container{
+    width: 1400px;
+    margin: 0px auto;
+    display: flex;
+    column-gap: 80px;
+    padding: 70px 0px;
+}
+
+.education,.experience{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    position: relative;
+}
+
+.education::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: -40px;
+    width: 3px;
+    height:calc(100% - 70px);
+    background-color: teal;
+}
+
+.experience::before{
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: -40px;
+    width: 3px;
+    height:calc(100% - 70px);
+    background-color: teal;
+}
+
+.item{
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.item::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: teal;
+    left: -45px;
+}
+
+h1{
+    color: teal;
+}
+span{
+    color: teal;
+    font-size: 20px;
+}
+h3{
+    padding: 10px 0px;
+    font-size: 24px;
+}
+
+
+@media screen and (max-width:1500px) {
+    .container{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .container{
+        max-width: 80%;
+        flex-direction: column;
+        row-gap: 70px;
+    }
+}

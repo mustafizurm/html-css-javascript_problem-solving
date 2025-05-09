@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 350px;
+    background-color: white;
+}
+
+.profile-cover{
+    width: 100%;
+    height: 160px;
+    background-image: url("./img/coverPic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: -50px;
+    z-index: 1;
+}
+
+.profile .image{
+    width: 90px;
+    height: 90px;
+    padding: 2px;
+    border: 3px solid red;
+    border-radius: 50%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profile button{
+    padding: 9px 40px;
+    outline: none;
+    background: transparent;
+    border: 1px solid red;
+    color: gray;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.profile h3{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.profile p{
+    padding-bottom: 15px;
+    color: gray;
+    padding-top: 6px;
+}
+
+.profile-famous{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 24px;
+}
+
+.profile-famous div p{
+    font-size: 17px;
+    color: gray;
+}
+
+.profile-famous div h5{
+    margin-top: 6px;
+    font-size: 24px;
+}
+
+.footer{
+    padding: 10px 0px;
+    text-align: center;
+    color: white;
+    background-color: red;
+    margin-top: 10px;
+}
+
+.footer h1{
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}

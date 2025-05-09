@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-container{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:conic-gradient(indigo 250.6deg, #ededed 1deg);
+    border-radius: 50%;
+    position: relative;
+}
+
+.progress::before{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    width:220px;
+    height: 220px;
+    /* background-color: #f0ff; */
+}
+
+span{
+    font-size: 23px;
+    color: white;
+    font-weight: 800;
+    z-index: 1;
+}
